@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北国冰城</title>
+    <link rel="stylesheet" type="text/css" href="../css/index-d1.css">
+    <link rel="stylesheet" type="text/css" href="../css/index-d2.css">
+    <link rel="stylesheet" type="text/css" href="../css/index-d3.css">
+    <link rel="stylesheet" type="text/css" href="../css/index-d4.css">
+    <link rel="stylesheet" type="text/css" href="../css/index-d5.css">
+    <link rel="stylesheet" type="text/css" href="../css/index-d6.css">
+    <link rel="stylesheet" type="text/css" href="../css/index-d7.css">
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        li{
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="d11">
+        <div class="d12">
+            <div class="d13">
+                <br><br>
+                <img src="../images/log.png" width="200px" height="60px"></div>
+            <div class="d14">
+                <ul class="u1">
+                    <li><a href="index1.html"><img src="../images/1.2.png" width="20px" height="20px">首页</a></li>
+                    <li><a href="jieshao.html" ><img src="../images/1.3.png" width="20px" height="20px">介绍</a></li>
+                    <li><a href="fengjing.html" ><img src="../images/1.4.png" width="20px" height="20px">景点</a></li>
+                    <li><a href="meishi.html" ><img src="../images/1.6.png" width="20px" height="20px">美食</a></li>
+                    <li><a href="gouwu.html" ><img src="../images/1.7.png" width="20px" height="20px">购物</a></li>
+                    <li><a href="#d61"><img src="../images/1.8.png" width="20px" height="20px">游记</a></li>
+                    <li><a href="my.html"><img src="../images/2.0.png" width="20px" height="20px">我的</a></li>
+                </ul>
+            </div>
+            <div class="d15">
+                <input type="text" class="t1" value="输入关键词">
+               <a href="https://www.baidu.com/?tn=48021271_25_hao_pg"><button></button></a> 
+            </div>
+            <div class="d17" id="d17">
+                <ul><li><a href="login.html" target="_blank" id="a1">登录 / 注册</a></li></ul>
+                
+            </div>
+            <script>
+                var url = window.location.href;//获取当前浏览器的url
+                index = url.indexOf("username");
+                if(index !==-1){
+                var index = window.location.href.indexOf("?");
+                index++;
+                var userInfo = window.location.href.substring(index);
+                var uname = userInfo.substring(userInfo.indexOf("=")+ 1);
+                document.getElementById("d17").innerHTML = "<ul><li><a>"+"<img src='images/默认头像.png'>"+uname+"</a></li></ul>";
+                } 
+            </script>
+        </div>
+        <div class="d18">
+            <img src="../images/雪域冰晶城1.png">
+            <a href="#T1"><button>了解更多</button></a>
+        </div>
+    </div>
+    <a name="T1">
+        <div class="d21">
+            <div class="d22"><span class="s23"></span><span class="s24">关于哈尔滨</span><span class="s25"></span></div>
+            <div class="d26">
+                <p>
+                    <span class="d26s0">物华天宝，人杰地灵，冰城夏都</span><br>
+                    哈尔滨是一座具被成为<span class="d26s1">中国的冰雪之都</span>拥有深厚的冰雪文化底蕴名城。<br>
+                    每年冬季，哈尔滨都会举办盛大的<span class="d26s2"> “冰雪节”</span>
+                    展示着冰雕艺术的精湛技艺。<br>  
+                    哈尔滨的冰雪文化，是城市的独特名片，中国人民
+                    <span class="d26s3">智慧的结晶</span>。<br>
+                    整个城市被冰雪装扮得如诗如画，吸引着无数游客前来观赏。<br>
+                    哈尔滨的冬天，是<span class="d26s4">冰雪奇缘</span>的开始。<br>
+                    参加冰雪节、太阳岛雪博会等活动，你将领略到丰富多彩的
+                    <span class="d26s5">冰雪文化</span>魅力。<br>
+                    走进冰雪大世界，感受冰雕师们的
+                    <span class="d26s6">鬼斧神工</span>；探访哈尔滨极地馆，了解极地生物的奇妙世界。
+                   
+                </p>
+            </div>
+        </div>
+    </a>
+    <div class="d31">
+        <p class="p3">著名景点&nbsp;&nbsp;FAMOUS SCENERY</p>
+        <table>
+            <tr>
+                <td><a href="rexueqiji.html" target="_blank"><div class="d32"><div class="d33"><img src="../images/哈尔滨热雪奇迹室内滑雪场.jpg" width="350px" height="230px"></div><div class="d34"><span class="s31">哈尔滨热雪奇迹室内滑雪场</span><span class="s32">4.6分</span>1.3w条点评<br>&nbsp;&nbsp;&nbsp;全球最大的室内滑雪场</div></div></a></td>
+                <td><a href="bingxuedashijie.html" target="_blank"><div class="d32"><div class="d33"><img src="../images/冰雪大世界.jpg" width="350px" height="230px"></div><div class="d34"><span class="s31">冰雪大世界</span><span class="s32">4.8分</span>2.4w条点评<br>&nbsp;&nbsp;&nbsp;世界最大冰雪主题乐园</div></div></a></td>
+                <td><a href="haerbinjidiguan.html" target="_blank"><div class="d32"><div class="d33"><img src="../images/哈尔滨极地馆.jpg" width="350px" height="230px"></div><div class="d34"><span class="s31">哈尔滨极地馆</span><span class="s32">4.8分</span>3.3w条点评<br>&nbsp;&nbsp;&nbsp;中国首家以极地主题表演秀为核心的极地公园</div></div></a></td>
+                <td><a href="taiyangdaoxbh.html" target="_blank"><div class="d32"><div class="d33"><img src="../images/哈尔滨太阳岛雪博会.jpg"width="350px" height="230px"></div><div class="d34"><span class="s31">哈尔滨太阳岛雪博会</span><span class="s32">4.2分</span>4.1w条点评<br>&nbsp;&nbsp;&nbsp;中国雪雕艺术的发源地</div></div></a></td>
+            </tr>
+            <tr>
+                <td><a href="songhuajiangbxjnh.html" target="_blank"><div class="d32"><div class="d33"><img src="../images/松花江冰雪嘉年华.jpg"width="350px" height="230px"></div><div class="d34"><span class="s31">松花江冰雪嘉年华</span><span class="s32">4.8分</span>3.6w条点评<br>&nbsp;&nbsp;&nbsp;公益性、参与性、趣味性、娱乐性于一体的<br>&nbsp;&nbsp;&nbsp;江上冰雪主题乐园</div></div></a></td>
+                <td><a href="xuexiang.html" target="_blank"><div class="d32"><div class="d33"><img src="../images/雪乡.jpg"width="350px" height="230px"></div><div class="d34"><span class="s31">雪乡</span><span class="s32">4.5分</span>2.8条点评<br>&nbsp;&nbsp;&nbsp;独一无二的冰雪世界</div></div></a></td>
+                <td><a href="yBULIHUzuedujiacun.html" target="_blank"><div class="d32"><div class="d33"><img src="../images/亚布力滑雪度假村.jpg"width="350px" height="230px"></div><div class="d34"><span class="s31">亚布力滑雪度假村</span><span class="s32">4.7分</span>1.5w条点评<br>&nbsp;&nbsp;&nbsp;千年侯国  万里海昏</div></div></a></td>
+                <td><a href="gongyuanbingdenghui.html" target="_blank"><div class="d32"><div class="d33"><img src="../images/兆麟公园冰灯游园会.jpg"width="350px" height="230px"></div><div class="d34"><span class="s31">兆麟公园冰灯游园会</span><span class="s32">4.9分</span>1.3w条点评<br>&nbsp;&nbsp;&nbsp;世界第二超级音乐喷泉</div></div></a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="d41">
+        <p>特色美食&nbsp;&nbsp;SPECIALTY FOODS</p>
+        <table>
+            <tr>
+                <td><a href="gbr.html" target="_blank"><div class="d42"><div class="d43"><img src="../images/锅包肉.png" width="350px" height="350px"></div><div class="d44"><span class="s41">锅包肉</span><div class="d45">锅包肉，原名“锅爆肉”，是每个东北孩子心中关于故乡的回忆，是一道浸染了家乡烟火气息的肉菜。锅包肉的做法很简单，但是味道十分深沉。</div></div></div></a></td>
+                <td><a href="dalieba.html" target="_blank"><div class="d42"><div class="d43"><img src="../images/大列巴.png" width="350px" height="350px"></div><div class="d44"><span class="s41">大列巴</span><div class="d45">大列巴是秋林食品公司的创始人、俄罗斯商人伊万·亚阔洛维奇·秋林引进前店后厂的模式生产的，已经拥有一百多年历史，秋林“大列巴”每天限量生产160个，在哈尔滨经常见到排队购物的就是“里道斯”红肠和“大列巴”面包。 </div></div></div></a></td>
+                <td><a href="shazhucai.html" target="_blank"><div class="d42"><div class="d43"><img src="../images/杀猪菜.png" width="350px" height="350px"></div><div class="d44"><span class="s41">杀猪菜</span><div class="d45">杀猪菜，原本是东北农村每年接近年关杀年猪时所吃的一种炖菜。在东北许多地方常年开设杀猪菜，形成东北饮食一大特色。地道的“杀猪菜”，是由多种菜品组合成的系列菜的总称。 </div> </div></div></a></td>
+                <td><a href="ganchang.html" target="_blank"><div class="d42"><div class="d43"><img src="../images/干肠.png" width="350px" height="350px"></div><div class="d44"><span class="s41">干肠</span><div class="d45">风干肠是指以肉类为原料，经切，绞成丁，配以辅料，灌入动物肠衣经发酵、成熟干制成的肉制品，是我国肉类制品中品种多的一大类产品。风干肠顾名思议不需要使用明火烤，而通过自然风干而成的腊肠。</div> </div></div></a></td>
+            </tr>
+        </table>
+     
+    </div>
+    <div class="d51">
+        <p>购物天堂 SHOPPINH PARADISE</p>
+        <table>
+            <tr>
+                <td><a href="zydj.html" target="_blank"><div class="d52"><div class="d53"><img src="../images/中央大街.png" width="380px" height="260px"></div><div class="d54"><span class="s51">中央大街</span><span class="s32">4.4分</span>294条点评<div class="d55">来到中央大街一定要去尝尝地道的俄式西餐，以及大名鼎鼎的马迭尔冰棍。这条拥有超过百年历史的商业街荟萃着许多经典的欧式建筑，也开满了各种百货商店，每到夜晚整条街被灯光渲染得流光溢彩，是哈尔滨必体验之地。</div></div></div></a></td>
+                <td><a href="wdgc.html" target="_blank"><div class="d52"><div class="d53"><img src="../images/万达广场.png" width="380px" height="260px"></div><div class="d54"><span class="s51">万达广场</span><span class="s32">4.8分</span>63条点评<div class="d55">哈西万达广场是大连万达集团斥巨资打造建设的哈尔滨第三座万达广场，总建设规模近百万平米，集大型购物中心、量贩式KTV、电玩城、国际影城、国际连锁超市、五星级酒店、室内步行商业街、商铺、高档写字楼、SOHO公寓及高档住宅于一体，也是东三省规模最大的城市综合体之一。</div></div></div></a></td>
+                <td><a href="zz.html" target="_blank"><div class="d52"><div class="d53"><img src="../images/卓展.png" width="380px" height="260px"></div><div class="d54"><span class="s51">卓展</span><span class="s32">4.6分</span>44条点评<div class="d55">T16 卓展哈尔滨店，地处哈尔滨市通往全省各地的交通要塞，南主干道为建国街，北主干道为友谊路，西主干道为哈药路，东主干道为经纬街。</div></div></div></a></td>
+            <tr>
+                <td><a href="tianhong.html" target="_blank"><div class="d52"><div class="d53"><img src="../images/天虹.jpg" width="380px" height="260px"></div><div class="d54"><span class="s51">天虹</span><span class="s32">4.8分</span>48条点评<div class="d55">已连续多年入围中国连锁百强企业，拥有全国领先的零售技术研发和运营能力，天虹根据目标顾客需求的不同，以百货、购物中心、超市、便利店四大业态线上线下融合的数字化、体验式新零售，打造以“亲和、信赖、享受生活”为核心价值的品牌。</div></div></div></a></td>
+                <td><a href="wushang.html" target="_blank"><div class="d52"><div class="d53"><img src="../images/武商.jpg" width="380px" height="260px"></div><div class="d54"><span class="s51">武商</span><span class="s32">4.9分</span>76条点评<div class="d55">南昌武商MALL是南昌首家重奢购中心，武商集团联手国际大牌“朋友圈”，首次出征商业“蓝海”江西。</div></div></div></a></td>
+                <td><a href="wandaguangchang.html" target="_blank"><div class="d52"><div class="d53"><img src="../images/万达广场.jpg" width="380px" height="260px"></div><div class="d54"><span class="s51">万达广场</span><span class="s32">4.7分</span>108条点评<div class="d55">万达购物广场是新世纪新南昌标志性商业巨著，商业项目奉行招商先行，开发在后，其“室内商业步行街+世界500强零售巨头”的创新模式，也对南昌市商业的发展起到巨人的推动作用。</div></div></div></a></td>
+            </tr>
+        </table>
+        
+    </div>
+    <a name="d61">
+        <div class="d61">
+            <p class="p2">南昌游记 TRAVELS TO NANCHANG</p>
+            <a href="youji1.html" target="_blank"><div class="d62"><img src="../images/南昌游记1.jpg" width="280px" height="200px"><div class="d621"><span class="s61">南昌：与三五好友的周末小资生活</span><br><img src="../images/头像1.jpg"><span class="s62">肖希泽</span><br><span>工作很忙似乎成为了大部分当代人的“通病”，尤其是对于有一点点小小事业的我来讲。现阶段</span><br><span class="s63">已阅人数：11820人</span></div></div></a>
+            <a href="youji2.html" target="_blank"><div class="d62"><img src="../images/南昌游记2.jpg" width="280px" height="200px"><div class="d621"><span class="s61">火辣南昌中的慢生活，解锁湾里的百变风味</span><br><img src="../images/头像2.jpg"><span class="s62">麻小薯</span><br><span>解锁南昌百变风味开年第一站，我来到江西，一个熟悉得不能再熟悉的地方，往年我会在三月开</span><br><span class="s63">已阅人数：55283人</span></div></div></a>
+            <a href="youji3.html" target="_blank"><div class="d62"><img src="../images/南昌游记3.jpg" width="280px" height="200px"><div class="d621"><span class="s61">南昌湾里三日游攻略，过一个亲子欢乐时光</span><br><img src="../images/头像3.jpg"><span class="s62">胡恩泰</span><br><span>南昌湾里南昌作为江西省会，是一座历史悠久、文化底蕴的城市。当然旅游资源也是特别的丰富</span><br><span class="s63">已阅人数：25659人</span></div></div></a>
+        </div>
+    </a>
+    <div class="d71">&copy;2023 - 现在&nbsp;*** 版权所有 &nbsp;&nbsp;&nbsp;&nbsp;学号：********
+    </div>
+    <script type="text/javascript" src="../js/login2.js"></script>
+</body>
+</html>
